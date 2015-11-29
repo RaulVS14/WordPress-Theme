@@ -13,3 +13,7 @@ Lecture 2: The (Beautiful) Final WordPress Website You are Going To Build In Thi
 # Section: 2 - What You Need To Know About Bootstrap
 
 Lecture 3: What is Bootstrap? And Why Mastering It Will Save You Hundreds Of Hours
+
+# Section: 3 - What You Need To Know About WordPress
+
+Lection 4: What is WordPress? And Why You Should Care So Much About It
