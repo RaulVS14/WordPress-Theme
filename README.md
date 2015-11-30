@@ -46,6 +46,8 @@ Lecture 12: Setting Up Your Project Environment
 
 Lecture 13: Code The Basic Webpage Layout
 
+Lecture 14: Adding External Scripts to Your HTML Document
+
 
 
 
