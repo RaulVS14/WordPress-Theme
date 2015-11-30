@@ -24,11 +24,15 @@ Lecture 6: My Fear Of Building Custom WordPress Websites Cost Me $24,000
 
 Lecture 7: Static vs. Dynamic Websites, Which Is Better? (Hint: One Is Way More Valuable)
 
+Quiz
+
 # Section: 4 - Information Architecture
 
 Lecture 8: Why You Must Always Start Your Website With a Sketch
 
 Lecture 9: Recommended Resources for Sketching & Wireframing Your Website
+
+Quiz
 
 
 
