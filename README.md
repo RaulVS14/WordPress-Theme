@@ -40,6 +40,8 @@ Lecture 10: Free Download: The Bootstrap Framework
 
 Lecture 11: Free Download: The Final Course Files + WordPress Theme!
 
+Lecture 12: Setting Up Your Project Environment
+
 
 
 
