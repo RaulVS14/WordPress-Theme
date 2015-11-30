@@ -34,6 +34,10 @@ Lecture 9: Recommended Resources for Sketching & Wireframing Your Website
 
 Quiz
 
+# Section: 5 - Environment Setup: Get Your Project Started
+
+Lecture 10: Free Download: The Bootstrap Framework
+
 
 
 
