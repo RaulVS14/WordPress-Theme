@@ -20,3 +20,6 @@ Lecture 4: What is WordPress? And Why You Should Care So Much About It
 
 Lecture 5: Two Ways Building Custom WordPress Websites Will Make You More Money
 
+Lecture 6: My Fear Of Building Custom WordPress Websites Cost Me $24,000
+
+
