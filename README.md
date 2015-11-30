@@ -16,4 +16,7 @@ Lecture 3: What is Bootstrap? And Why Mastering It Will Save You Hundreds Of Hou
 
 # Section: 3 - What You Need To Know About WordPress
 
-Lection 4: What is WordPress? And Why You Should Care So Much About It
+Lecture 4: What is WordPress? And Why You Should Care So Much About It
+
+Lecture 5: Two Ways Building Custom WordPress Websites Will Make You More Money
+
