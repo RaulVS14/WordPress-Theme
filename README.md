@@ -53,3 +53,5 @@ Lecture 15: Install Free Icon Fonts with FontAwesome
 Lecture 16: Install Free Web Fonts with TypeKit & Google Fonts
 
 Lecture 17: Code the Header and Navigation Sections
+
+Lecture 18: Code the Hero Section
