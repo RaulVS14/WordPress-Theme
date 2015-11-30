@@ -28,6 +28,8 @@ Lecture 7: Static vs. Dynamic Websites, Which Is Better? (Hint: One Is Way More 
 
 Lecture 8: Why You Must Always Start Your Website With a Sketch
 
+Lecture 9: Recommended Resources for Sketching & Wireframing Your Website
+
 
 
 
