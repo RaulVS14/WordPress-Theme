@@ -42,7 +42,9 @@ Lecture 11: Free Download: The Final Course Files + WordPress Theme!
 
 Lecture 12: Setting Up Your Project Environment
 
+# Section: 6 - Bootstrap Templates: The Home Page
 
+Lecture 13: Code The Basic Webpage Layout
 
 
 
