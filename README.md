@@ -75,3 +75,5 @@ Lecture 26: Code the "Final Project" Section
 Lecture 27: Code the Featurette Section and Embed a YouTube Video
 
 Lecture 28: Code the Instructor Section (Plus BONUS Elvis Impressions!)
+
+Lecture 29: Code Beautiful CSS3 Circles

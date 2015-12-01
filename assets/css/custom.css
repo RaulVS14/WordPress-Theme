@@ -58,6 +58,37 @@ img {
     max-width: 100%;
 }
 
+.modal-content {
+    background: url("../img/tile.jpg");
+}
+
+.badge.social {
+    background: #ccc;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 42px;
+    margin: 0 5px 20px 0;
+    padding: 0;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    color: white;
+}
+
+.badge.social.twitter:hover {
+    background: #55acee;
+}
+
+.badge.social.facebook:hover {
+    background: #3b5998;
+}
+
+.badge.social.gplus:hover {
+    background: #db4b39;
+}
+
 /* === HERO === */
 
 #hero {
@@ -170,15 +201,34 @@ section h3 {
     text-align: center;
 }
 
-#featurette{
+#featurette {
     background: url("../img/stuff-bg.jpg") 50% 100% repeat fixed;
     background-size: cover;
     text-align: center;
     color: white;
 }
 
-#instructor{
+#instructor {
     background: white url("../img/brad-elvis.png") 90% -10px no-repeat;
+}
+
+#instructor h2 {
+    margin: 0 0 20px;
+}
+
+#instructor .num {
+    font-size:30px;
+    font-weight: bold;
+    color:white;
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    background: #dd5638;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 /* === CUSTOM ICON SPRITES === */
@@ -209,6 +259,7 @@ i.ci {
 .ci.ci-instructor {
     background-position: -160px 0;
 }
+
 .ci.ci-device {
     background-position: -200px 0;
 }
