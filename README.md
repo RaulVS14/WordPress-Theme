@@ -80,3 +80,5 @@ Lecture 29: Code Beautiful CSS3 Circles
 
 Lecture 30: The Simple Trick to Vertically Align Your Content Within an Element
 
+Lecture 31: Code the Testimonials and Learn to Turn Square Images into Circles using CSS3
+
