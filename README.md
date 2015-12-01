@@ -85,3 +85,5 @@ Lecture 31: Code the Testimonials and Learn to Turn Square Images into Circles u
 Lecture 32: Code the Sign Up Section
 
 Lecture 33: Code the Footer
+
+Lecture 34: Responsive Media Queries & General CSS Cleanup
