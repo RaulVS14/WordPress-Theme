@@ -59,3 +59,5 @@ Lecture 18: Code the Hero Section
 Lecture 19: Style the Hero Section with CSS
 
 Lecture 20: Learn How To Create The Parallax Scrolling Effect in Less Than 5-Minutes
+
+Lecture 21: Learn to Code a High-Converting "Opt-In" Section
