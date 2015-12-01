@@ -97,3 +97,7 @@ Lecture 36: Code the Blog Excerpts with HTML
 Lecture 37: Style the Blog Excerpts with CSS
 
 Lecture 38: Code and Style the Sidebar & Widgets
+
+# Section: 8 - Bootstrap Templates: The Blog Posts
+
+Lecture 39: Code the Blog Post

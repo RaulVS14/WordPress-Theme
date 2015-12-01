@@ -396,11 +396,14 @@ footer li.signup-link a:hover {
     border-radius: 4px;
 }
 
-.post header, .post .post-excerpt {
+.post header,
+.post .post-excerpt,
+.post .post-body {
     padding: 20px;
 }
 
-.post header h1, .post header h3 {
+.post header h1,
+.post header h3 {
     margin: 0 0 15px;
     padding: 0 0 15px;
     border-bottom: 1px solid #ddd;
