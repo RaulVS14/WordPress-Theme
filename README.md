@@ -70,3 +70,5 @@ Lecture 24: Code the "Who Should Take This Course" Section
 
 Lecture 25: Code the "Course Features" Section Using CSS Sprites
 
+Lecture 26: Code the "Final Project" Section
+
