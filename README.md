@@ -91,3 +91,5 @@ Lecture 34: Responsive Media Queries & General CSS Cleanup
 # Section: 7 - Bootstrap Templates: The Blog Overview
 
 Lecture 35: Code the Basic Markup Structure
+
+Lecture 36: Code the Blog Excerpts with HTML
