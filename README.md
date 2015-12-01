@@ -67,3 +67,6 @@ Lecture 22: Learn How to Create a Modal Popup using Bootstrap
 Lecture 23: Code the "Boost Your Income" Section
 
 Lecture 24: Code the "Who Should Take This Course" Section
+
+Lecture 25: Code the "Course Features" Section Using CSS Sprites
+

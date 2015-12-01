@@ -8,7 +8,7 @@ Blue Gray: #3e4249
 
 /* === GENERAL === */
 
-body{
+body {
     margin-top: 50px;
     font-family: 'Raleway', Helvetica, sans-serif;
     font-size: 16px;
@@ -17,25 +17,25 @@ body{
 
 /* === GLOBAL === */
 
-h1,h2,h3,h4,h5,h6{
+h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;;
     text-rendering: optimizeLegibility;
     font-weight: bold;
 }
 
-h1{
+h1 {
     font-size: 3em;
 }
 
-h1,h2{
+h1, h2 {
     margin: 0 0 40px;
 }
 
-h3{
+h3 {
     margin: 20px 0;
 }
 
-h4{
+h4 {
     font-size: 18px;
 }
 
@@ -45,21 +45,22 @@ button, input, .btn, a.btn {
     color: white;
 }
 
-.btn{
+.btn {
     font-weight: bold;
 }
 
-.btn-danger{
+.btn-danger {
     background-color: #dd5638;
     border-color: #d95131;
 }
 
-img{
+img {
     max-width: 100%;
 }
+
 /* === HERO === */
 
-#hero{
+#hero {
     background: url("../img/hero-bg.jpg") 50% 0 repeat fixed;
     min-height: 500px;
     padding: 40px 0;
@@ -73,16 +74,16 @@ img{
     text-align: center;
 }
 
-#hero .hero-text{
+#hero .hero-text {
     margin-top: 30px;
 }
 
-#price-timeline{
+#price-timeline {
     margin: 30px 0 60px;
     text-align: center;
 }
 
-#price-timeline .price{
+#price-timeline .price {
     display: inline-block;
     margin: 0 2% 0 0;
     width: 30%;
@@ -96,7 +97,7 @@ img{
     background: #dd5638;
 }
 
-#price-timeline .price span{
+#price-timeline .price span {
     background: #101010;
     display: block;
     height: 70px;
@@ -110,39 +111,39 @@ img{
     -moz-border-radius: 100%;
     position: absolute;
     bottom: -35px;
-    left:50%;
+    left: 50%;
     margin-left: -35px;
 }
 
-#price-timeline h4{
+#price-timeline h4 {
     margin: 0 0 10px;
 }
 
-#price-timeline h4 small{
-    color:white;
+#price-timeline h4 small {
+    color: white;
     font-weight: bold;
     display: block;
 }
 
-/* === LAYOUT */
+/* === LAYOUT === */
 
-section{
+section {
     padding: 80px 0;
 }
 
-.section-header{
+.section-header {
     text-align: center;
 }
 
-section h2{
+section h2 {
     margin: 20px 0 40px;
 }
 
-section h3{
+section h3 {
     margin: 30px 0 10px;
 }
 
-#optin{
+#optin {
     background: #3e4249;
     padding: 20px 0;
     color: white;
@@ -151,10 +152,48 @@ section h3{
     font-size: 1.2em;
 }
 
-#optin p{
+#optin p {
     margin: 7px 0 0 0;
 }
 
-#who-benefits{
+#who-benefits {
     background: white;
+}
+
+#course-features {
+    background: #3e4249;
+    color: white;
+    text-align: center;
+}
+
+/* === CUSTOM ICON SPRITES === */
+
+i.ci {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: url("../img/icon-sprite.png") no-repeat;
+}
+
+.ci.ci-computer {
+    background-position: 0 0;
+}
+
+.ci.ci-watch {
+    background-position: -40px 0;
+}
+
+.ci.ci-calendar {
+    background-position: -80px 0;
+}
+
+.ci.ci-community {
+    background-position: -120px 0;
+}
+
+.ci.ci-instructor {
+    background-position: -160px 0;
+}
+.ci.ci-device {
+    background-position: -200px 0;
 }
