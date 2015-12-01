@@ -65,3 +65,5 @@ Lecture 21: Learn to Code a High-Converting "Opt-In" Section
 Lecture 22: Learn How to Create a Modal Popup using Bootstrap
 
 Lecture 23: Code the "Boost Your Income" Section
+
+Lecture 24: Code the "Who Should Take This Course" Section
