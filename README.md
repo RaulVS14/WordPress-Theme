@@ -83,3 +83,5 @@ Lecture 30: The Simple Trick to Vertically Align Your Content Within an Element
 Lecture 31: Code the Testimonials and Learn to Turn Square Images into Circles using CSS3
 
 Lecture 32: Code the Sign Up Section
+
+Lecture 33: Code the Footer
