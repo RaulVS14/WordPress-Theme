@@ -77,3 +77,6 @@ Lecture 27: Code the Featurette Section and Embed a YouTube Video
 Lecture 28: Code the Instructor Section (Plus BONUS Elvis Impressions!)
 
 Lecture 29: Code Beautiful CSS3 Circles
+
+Lecture 30: The Simple Trick to Vertically Align Your Content Within an Element
+
