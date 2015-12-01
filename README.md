@@ -72,3 +72,5 @@ Lecture 25: Code the "Course Features" Section Using CSS Sprites
 
 Lecture 26: Code the "Final Project" Section
 
+Lecture 27: Code the Featurette Section and Embed a YouTube Video
+
