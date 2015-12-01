@@ -39,11 +39,11 @@ h4 {
     font-size: 18px;
 }
 
-p{
-    margin:0 0 15px;
+p {
+    margin: 0 0 15px;
 }
 
-p.lead{
+p.lead {
     font-weight: normal;
 }
 
@@ -53,7 +53,7 @@ a:link, a:visited {
 
 a:hover {
     text-decoration: none;
-    color:#c9302c;
+    color: #c9302c;
 }
 
 button, input, .btn, a.btn {
@@ -66,8 +66,8 @@ button, input, .btn, a.btn {
     font-weight: bold;
 }
 
-button.btn:focus{
-    outline:none !important;
+button.btn:focus {
+    outline: none !important;
 }
 
 .btn-danger {
@@ -75,12 +75,12 @@ button.btn:focus{
     border-color: #d95131;
 }
 
-.btn-success{
+.btn-success {
     background: #79b044;
     border: none;
 }
 
-.btn-success:hover{
+.btn-success:hover {
     background: #6a9b3d;
     border-color: #6a9b3d;
 }
@@ -136,6 +136,7 @@ blockquote cite {
 blockquote:before {
     display: none;
 }
+
 /* === HERO === */
 
 #hero {
@@ -225,6 +226,33 @@ section h3 {
     margin: 30px 0 10px;
 }
 
+#primary {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.feature-image {
+    display: table;
+    width: 100%;
+}
+
+.feature-image-default {
+    background: url("../img/stuff-feature.jpg") no-repeat;
+    background-size: cover;
+}
+
+.feature-image-default-alt{
+    background: url("../img/hipster-stuff.jpg") no-repeat;
+    background-size: cover;
+}
+
+.feature-image h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color:white;
+}
+
 #optin {
     background: #3e4249;
     padding: 20px 0;
@@ -269,9 +297,9 @@ section h3 {
 
 #instructor .num {
     display: table;
-    font-size:30px;
+    font-size: 30px;
     font-weight: bold;
-    color:white;
+    color: white;
     line-height: 24px;
     height: 140px;
     width: 140px;
@@ -284,18 +312,18 @@ section h3 {
     text-rendering: optimizeLegibility;
 }
 
-#instructor .num .num-content{
+#instructor .num .num-content {
     display: table-cell;
     vertical-align: middle;
 }
 
-#instructor .num span{
+#instructor .num span {
     display: block;
     font-size: 20px;
     font-weight: normal;
 }
 
-#kudos{
+#kudos {
     text-align: center;
 }
 
@@ -317,11 +345,11 @@ section h3 {
     padding: 140px 0;
 }
 
-#signup h2{
+#signup h2 {
     font-weight: normal;
 }
 
-#signup h2 strong{
+#signup h2 strong {
     border-bottom: 2px solid #dd5638;
 }
 
@@ -336,24 +364,103 @@ footer {
     font-size: 12px;
 }
 
-footer p{
-    margin:0;
+footer p {
+    margin: 0;
 }
 
 footer a:link, footer a:visited {
-    color:white;
+    color: white;
 }
 
-footer a:hover{
-    color:#dd5638;
+footer a:hover {
+    color: #dd5638;
 }
 
-footer li.signup-link a{
-    color:#dd5638;
+footer li.signup-link a {
+    color: #dd5638;
 }
 
-footer li.signup-link a:hover{
+footer li.signup-link a:hover {
     font-weight: bold;
+}
+
+/* === BLOG === */
+
+.post {
+    position: relative;
+    border: 1px solid #ddd;
+    background: white;
+    margin: 0 0 40px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.post header, .post .post-excerpt {
+    padding: 20px;
+}
+
+.post header h1, .post header h3 {
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.post header h1 {
+    font-size: 24px;
+}
+
+.post-image {
+    height: auto;
+}
+
+.post-details {
+    font-size: 12px;
+    width: 90%;
+}
+
+.post-details i.fa {
+    padding-left: 10px;
+}
+
+.post-details i.fa:first-child {
+    padding: 0;
+}
+
+/* === COMMENTS === */
+
+.post-comments-badge {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    border: none;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background: #79b044;
+    text-align: center;
+    display: table;
+}
+
+.post-comments-badge a {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.post-comments-badge i.fa {
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 4px;
+}
+
+.post-comments-badge:hover {
+    background-color: #8bc653;
 }
 
 /* === CUSTOM ICON SPRITES === */
@@ -391,15 +498,15 @@ i.ci {
 
 /* === MEDIA QUERIES === */
 
-@media screen and ( max-width: 991px ){
+@media screen and ( max-width: 991px ) {
     #instructor .container {
-        background: rgba(255,255,255,0.8);
+        background: rgba(255, 255, 255, 0.8);
         padding: 20px;
     }
 }
 
-@media screen and ( max-width: 768px ){
-    .logo{
+@media screen and ( max-width: 768px ) {
+    .logo {
         width: 50%;
     }
 
@@ -412,7 +519,7 @@ i.ci {
     }
 }
 
-@media screen and (max-width: 568px ){
+@media screen and (max-width: 568px ) {
     #instructor .num {
         height: 100px;
         width: 100px;

@@ -93,3 +93,5 @@ Lecture 34: Responsive Media Queries & General CSS Cleanup
 Lecture 35: Code the Basic Markup Structure
 
 Lecture 36: Code the Blog Excerpts with HTML
+
+Lecture 37: Style the Blog Excerpts with CSS
