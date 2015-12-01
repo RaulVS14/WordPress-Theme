@@ -241,7 +241,7 @@ section h3 {
     background-size: cover;
 }
 
-.feature-image-default-alt{
+.feature-image-default-alt {
     background: url("../img/hipster-stuff.jpg") no-repeat;
     background-size: cover;
 }
@@ -250,7 +250,7 @@ section h3 {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    color:white;
+    color: white;
 }
 
 #optin {
@@ -386,7 +386,7 @@ footer li.signup-link a:hover {
 
 /* === BLOG === */
 
-.post, .widget {
+.post, .widget, #comments {
     position: relative;
     border: 1px solid #ddd;
     background: white;
@@ -398,7 +398,8 @@ footer li.signup-link a:hover {
 
 .post header,
 .post .post-excerpt,
-.post .post-body {
+.post .post-body,
+#comments .comments-wrap{
     padding: 20px;
 }
 
@@ -435,6 +436,7 @@ footer li.signup-link a:hover {
 .widget {
     padding: 20px;
 }
+
 .widget h4 {
     margin: 0 0 10px;
     padding: 0 0 10px;
@@ -453,7 +455,7 @@ footer li.signup-link a:hover {
 
 .widget ul li:hover {
     position: relative;
-    left:1px;
+    left: 1px;
 }
 
 /* === COMMENTS === */
@@ -490,6 +492,42 @@ footer li.signup-link a:hover {
 
 .post-comments-badge:hover {
     background-color: #8bc653;
+}
+
+#comments h3 {
+    text-align: center;
+}
+
+#comments h4 {
+    font-size: 1.3em;
+}
+
+#comments ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#comments ol li {
+    background: rgba(0,0,0,0.02);
+    padding: 10px 20px;
+    margin: 10px 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.03)
+}
+
+#comments ol li ol.children {
+    padding: 0;
+    list-style: none;
+    font-size: 0.96em;
+}
+
+#leave-comment {
+    margin: 40px 0 0;
+    padding: 20px 0 0;
+    border-top:1px solid #eee;
 }
 
 /* === CUSTOM ICON SPRITES === */
@@ -537,7 +575,7 @@ input[type='email'],
 input[type='url'],
 input[type='password'],
 input[type='search'],
-textarea{
+textarea {
     color: #666;
     border: 1px solid #ccc;
     -webkit-border-radius: 3px;

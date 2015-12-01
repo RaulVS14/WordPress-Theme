@@ -101,3 +101,5 @@ Lecture 38: Code and Style the Sidebar & Widgets
 # Section: 8 - Bootstrap Templates: The Blog Posts
 
 Lecture 39: Code the Blog Post
+
+Lecture 40: Code the Comments Section
