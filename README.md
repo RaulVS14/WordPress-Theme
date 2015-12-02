@@ -108,3 +108,5 @@ Lecture 40: Code the Comments Section
 
 Lecture 41: The Importance of a Resources Page
 
+Lecture 42: Code the 3-Column Layout Resources Page
+

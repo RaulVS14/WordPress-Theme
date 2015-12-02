@@ -214,6 +214,10 @@ section {
     padding: 80px 0;
 }
 
+.section.main-content {
+    padding: 40px 0;
+}
+
 .section-header {
     text-align: center;
 }
@@ -399,7 +403,7 @@ footer li.signup-link a:hover {
 .post header,
 .post .post-excerpt,
 .post .post-body,
-#comments .comments-wrap{
+#comments .comments-wrap {
     padding: 20px;
 }
 
@@ -509,13 +513,13 @@ footer li.signup-link a:hover {
 }
 
 #comments ol li {
-    background: rgba(0,0,0,0.02);
+    background: rgba(0, 0, 0, 0.02);
     padding: 10px 20px;
     margin: 10px 0;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    border: 1px solid rgba(0,0,0,0.03)
+    border: 1px solid rgba(0, 0, 0, 0.03)
 }
 
 #comments ol li ol.children {
@@ -527,7 +531,19 @@ footer li.signup-link a:hover {
 #leave-comment {
     margin: 40px 0 0;
     padding: 20px 0 0;
-    border-top:1px solid #eee;
+    border-top: 1px solid #eee;
+}
+
+/* === RESOURCES === */
+
+.resource {
+    width: 31.33333333%;
+    float: left;
+    margin: 0 3% 40px 0;
+}
+
+.resource:nth-child(3n) {
+    margin-right: 0;
 }
 
 /* === CUSTOM ICON SPRITES === */
@@ -610,6 +626,12 @@ textarea {
     #featurette iframe {
         height: 240px;
     }
+
+    .resource {
+        width: 48%;
+        margin-right: 2%;
+        min-height: 800px;
+    }
 }
 
 @media screen and (max-width: 568px ) {
@@ -621,5 +643,11 @@ textarea {
 
     #instructor .num span {
         font-size: 16px;
+    }
+
+    .resource {
+        width: 100%;
+        margin-right: 0;
+        min-height: 0;
     }
 }
