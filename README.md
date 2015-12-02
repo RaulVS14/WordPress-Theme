@@ -132,4 +132,7 @@ Lecture 50: Clean Up Your Stylesheet & Modify Your CSS for WordPress
 
 Lecture 51: Convert Your Static Footer to a Dynamic Footer
 
+# Section: 12 - Convert Your Static Templates: Home Page
+
+Lecture 52: Create a Home Page WordPress Template
 
