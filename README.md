@@ -124,3 +124,4 @@ Lecture 46: Install WordPress on Your Local Machine in Under 5-Minutes
 
 Lecture 47: Installing Your Underscores Theme
 
+Lecture 48: Convert Your Static Header to a Dynamic Header
