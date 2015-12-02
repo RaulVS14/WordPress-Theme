@@ -103,3 +103,8 @@ Lecture 38: Code and Style the Sidebar & Widgets
 Lecture 39: Code the Blog Post
 
 Lecture 40: Code the Comments Section
+
+# Section: 9 - Bootstrap Templates: The Resources Page
+
+Lecture 41: The Importance of a Resources Page
+
