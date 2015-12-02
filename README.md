@@ -129,3 +129,7 @@ Lecture 48: Convert Your Static Header to a Dynamic Header
 Lecture 49: Cover Your Assets (Adding Your Styles, Scripts, Fonts & Images)
 
 Lecture 50: Clean Up Your Stylesheet & Modify Your CSS for WordPress
+
+Lecture 51: Convert Your Static Footer to a Dynamic Footer
+
+
