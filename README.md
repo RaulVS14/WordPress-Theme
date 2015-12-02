@@ -120,3 +120,5 @@ Lecture 44: Download the Latest Version of WordPress
 
 Lecture 45: Create Your "Underscores" Starter Theme
 
+Lecture 46: Install WordPress on Your Local Machine in Under 5-Minutes  
+
