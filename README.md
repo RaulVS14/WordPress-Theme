@@ -136,3 +136,5 @@ Lecture 51: Convert Your Static Footer to a Dynamic Footer
 
 Lecture 52: Create a Home Page WordPress Template
 
+Lecture 53: Code the Hero & Use "Custom Fields" for Extra Info
+
