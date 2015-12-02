@@ -140,4 +140,8 @@ Lecture 53: Code the Hero & Use "Custom Fields" for Extra Info
 
 Lecture 54: Amazing Plugin: Advanced Custom Fields
 
+Lecture 55: Code the "Boost Your Income" Section with Advanced Custom Fields
+
+
+
 
