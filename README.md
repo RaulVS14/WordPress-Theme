@@ -110,3 +110,7 @@ Lecture 41: The Importance of a Resources Page
 
 Lecture 42: Code the 3-Column Layout Resources Page
 
+# Section: 10 - Bootstrap Templates: The Contact Page
+
+Lecture 43: Code the Contact Form
+
