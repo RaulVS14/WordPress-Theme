@@ -70,7 +70,7 @@
 
                             </button>
 
-                            <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png"
+                            <a class="navbar-brand" href="index.html"><img src="<?php bloginfo('stylesheet_directory')?>/assets/img/logo.png"
                                                                            alt="Bootstrap to WordPress"></a>
 
                         </div><!-- navbar-header -->
