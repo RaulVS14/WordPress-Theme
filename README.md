@@ -138,3 +138,6 @@ Lecture 52: Create a Home Page WordPress Template
 
 Lecture 53: Code the Hero & Use "Custom Fields" for Extra Info
 
+Lecture 54: Amazing Plugin: Advanced Custom Fields
+
+
