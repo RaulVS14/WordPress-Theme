@@ -114,3 +114,7 @@ Lecture 42: Code the 3-Column Layout Resources Page
 
 Lecture 43: Code the Contact Form
 
+# Section: 11 - WordPress Theme: Set Up
+
+Lecture 44: Download the Latest Version of WordPress
+
