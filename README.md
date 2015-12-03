@@ -144,6 +144,5 @@ Lecture 55: Code the "Boost Your Income" Section with Advanced Custom Fields
 
 Lecture 56: Code the "Who Should Take This Course" Section with Advanced Custom Fields
 
-
-
+Lecture 57: Amazing Plugin: Custom Post Types UI
 
