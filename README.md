@@ -149,3 +149,6 @@ Lecture 57: Amazing Plugin: Custom Post Types UI
 Lecture 58: Add "Course Features" Using CPT & Advanced Custom Fields
 
 Lecture 59: Add the "Project Features" with Custom Post Types UI
+
+Lecture 60: Code the Instructor Section with Advanced Custom Fields
+
