@@ -29,6 +29,13 @@ $features_section_image = get_field('features_section_image');
 $features_section_title = get_field('features_section_title');
 $features_section_body  = get_field('features_section_body');
 
+$project_feature_title  = get_field('project_feature_title');
+$project_feature_body   = get_field('project_feature_body');
+
+$course_intro_title     = get_field('course_introduction_title');
+$course_intro_video     = get_field('course_introduction_video');
+$course_intro_body      = get_field('course_introduction_body');
+
 
 get_header(); ?>
 
@@ -275,48 +282,33 @@ get_header(); ?>
 
     <div class="container">
 
-        <h2>Final Project Features</h2>
+        <h2><?php echo $project_feature_title;?></h2>
 
         <p class="lead">
-            Throughout this entire course, you work towards building an incredibly beautiful website. Want to see the
-            website <strong>you</strong> are going to build? <em>You&rsquo;re looking at it!</em> The website you're
-            using right now is the website you
-            will have built entirely by yourself, by the end of this course.
+            <?php echo $project_feature_body;?>
         </p>
 
         <div class="row">
 
-            <div class="col-sm-4">
+            <?php $loop = new WP_Query(array('post_type' => 'project_feature', 'orderby' => 'post_id', 'order' => 'ASC')); ?>
 
-                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-design.png" alt="Design">
+            <?php while($loop -> have_posts()): $loop->the_post();?>
 
-                <h3>Sey &amp; Modern Design</h3>
+                <div class="col-sm-4">
 
-                <p>You get to work with a modern, professional quality design &amp; layout.</p>
+                    <?php
+                        if(has_post_thumbnail()){
+                            the_post_thumbnail();
+                        }
+                    ?>
 
-            </div><!-- col -->
+                    <h3><?php the_title()?></h3>
 
-            <div class="col-sm-4">
+                    <p><?php the_content()?></p>
 
-                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-code.png" alt="Code">
+                </div><!-- col -->
 
-                <h3>Quality HTML5 &amp; CSS3</h3>
-
-                <p>You'll learn how hand-craft a stunning website with valid, semantic and beautiful HTML5 &amp;
-                    CSS3.</p>
-
-            </div><!-- col -->
-
-            <div class="col-sm-4">
-
-                <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/icon-cms.png" alt="CMS">
-
-                <h3>Easy-to-use CMS</h3>
-
-                <p>Allow your clients to easily update their websites by converting your static websites to dynamic
-                    websites, using WordPress.</p>
-
-            </div><!-- col -->
+            <?php endwhile; ?>
 
         </div><!-- row -->
 
@@ -334,10 +326,17 @@ get_header(); ?>
 
             <div class="col-sm-8 col-sm-offset-2">
 
-                <h2>Watch the Course Introduction</h2>
+                <h2><?php echo $course_intro_title;?></h2>
 
-                <iframe width="100%" height="415" src="https://www.youtube.com/embed/q-mJJsnOHew" frameborder="0"
-                        allowfullscreen></iframe>
+                <?php if(!empty($course_intro_body)) : ?>
+
+                    <p class="lead">
+                        <?php echo $course_intro_body;?>
+                    </p>
+
+                <?php endif;?>
+
+                <?php echo $course_intro_video;?>
 
             </div>
 
