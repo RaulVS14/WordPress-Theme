@@ -146,3 +146,4 @@ Lecture 56: Code the "Who Should Take This Course" Section with Advanced Custom 
 
 Lecture 57: Amazing Plugin: Custom Post Types UI
 
+Lecture 58: Add "Course Features" Using CPT & Advanced Custom Fields
