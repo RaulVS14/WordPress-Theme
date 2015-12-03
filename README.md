@@ -154,3 +154,5 @@ Lecture 60: Code the Instructor Section with Advanced Custom Fields
 
 Lecture 61: Code the Testimonials with Custom Post Types
 
+Lecture 62: Clean Your Template Using get_template_part()
+

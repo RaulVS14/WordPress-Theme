@@ -1051,8 +1051,11 @@ button[type="submit"]:hover {
 
 /* Fix the top margin when logged in */
 @media screen and (max-width: 600px){
+	.logged-in #wpadminbar {
+		position: fixed;
+	}
 	.logged-in .navbar-fixed-top {
-		top:42px;
+		top: 46px;
 	}
 }
 
