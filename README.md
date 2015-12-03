@@ -152,3 +152,5 @@ Lecture 59: Add the "Project Features" with Custom Post Types UI
 
 Lecture 60: Code the Instructor Section with Advanced Custom Fields
 
+Lecture 61: Code the Testimonials with Custom Post Types
+
