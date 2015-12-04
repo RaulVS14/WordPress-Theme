@@ -9,43 +9,61 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<?php if ( have_posts() ) : ?>
 
-		<?php if ( have_posts() ) : ?>
+	<section class="feature-image feature-image-default-alt" data-type="background" data-speed="2">
 
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
+		<h1 class="page-title">
+			<?php
+				the_archive_title();
+				the_archive_description( '<small class="taxonomy-description">', '</small>' );
+			?>
+		</h1>
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+	</section>
 
-				<?php
+	<div class="container">
 
-					/*
-					 * Include the Post-Format-specific template for the content.
-					 * If you want to override this in a child theme, then include a file
-					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-					 */
-					get_template_part( 'template-parts/content', get_post_format() );
-				?>
+		<div id="primary" class="row">
 
-			<?php endwhile; ?>
+			<main id="content" class="col-sm-8">
 
-			<?php the_posts_navigation(); ?>
+				<?php /* Start the Loop */ ?>
+				<?php while ( have_posts() ) : the_post(); ?>
 
-		<?php else : ?>
+					<?php
 
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+						/*
+						 * Include the Post-Format-specific template for the content.
+						 * If you want to override this in a child theme, then include a file
+						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+						 */
+						get_template_part( 'template-parts/content', get_post_format() );
+					?>
 
-		<?php endif; ?>
+				<?php endwhile; ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+				<?php the_posts_navigation(); ?>
+
+				<?php else : ?>
+
+				<?php get_template_part( 'template-parts/content', 'none' ); ?>
+
+			<?php endif; ?>
+
+			</main><!-- #main -->
+
+			<!-- SIDEBAR
+        	============================================ -->
+			<aside class="col-sm-4">
+
+				<?php get_sidebar(); ?>
+
+			</aside>
+
+		</div><!-- #primary -->
+
+	</div><!-- container -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
