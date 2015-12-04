@@ -169,3 +169,5 @@ Lecture 65: How to Add a Resource and Display It In Your Custom Theme
 Lecture 66: Easily Set Up Your Custom Blog Index Page
 
 Lecture 67: Code Your Individual Blog Excerpts
+
+Lecture 68: Code the Full Blog Post
