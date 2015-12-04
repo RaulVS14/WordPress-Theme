@@ -161,3 +161,5 @@ Lecture 62: Clean Your Template Using get_template_part()
 Lecture 63: Create a Custom Resources Template
 
 Lecture 64: Add a Feature Image, and a Fallback Image
+
+Lecture 65: How to Add a Resource and Display It In Your Custom Theme
