@@ -156,3 +156,7 @@ Lecture 61: Code the Testimonials with Custom Post Types
 
 Lecture 62: Clean Your Template Using get_template_part()
 
+# Section: 13 - Convert Your Static Templates: Resources Page
+
+Lecture 63: Create a Custom Resources Template
+
