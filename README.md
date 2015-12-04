@@ -171,3 +171,5 @@ Lecture 66: Easily Set Up Your Custom Blog Index Page
 Lecture 67: Code Your Individual Blog Excerpts
 
 Lecture 68: Code the Full Blog Post
+
+Lecture 69: Style and Customize the Comments Section
