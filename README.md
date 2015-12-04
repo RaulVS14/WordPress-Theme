@@ -163,3 +163,7 @@ Lecture 63: Create a Custom Resources Template
 Lecture 64: Add a Feature Image, and a Fallback Image
 
 Lecture 65: How to Add a Resource and Display It In Your Custom Theme
+
+# Section: 14 - Convert Your Static Templates: The Blog
+
+Lecture 66: Easily Set Up Your Custom Blog Index Page
