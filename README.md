@@ -197,3 +197,5 @@ Lecture 76: Create a Useful & Engaging 404 Page
 Lecture 77: First, You're Going To Need a Reliable & Affordable Web Host
 
 Lecture 78: Install WordPress Like a Pro
+
+Lecture 79: Install and Configure Your Custom WordPress Theme on a Live Server
