@@ -181,3 +181,5 @@ Lecture 71: Customize the Search Results Template
 # Section: 15 - Convert Your Static Templates: Contact Page
 
 Lecture 72: Create & Customize a Full Width Template
+
+Lecture 73: Install Contact Form 7 Plugin and Add Your Custom Form
