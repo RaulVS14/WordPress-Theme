@@ -195,3 +195,5 @@ Lecture 76: Create a Useful & Engaging 404 Page
 # Section: 17 - Launching Your WordPress Website
 
 Lecture 77: First, You're Going To Need a Reliable & Affordable Web Host
+
+Lecture 78: Install WordPress Like a Pro
