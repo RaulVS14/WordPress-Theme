@@ -183,3 +183,7 @@ Lecture 71: Customize the Search Results Template
 Lecture 72: Create & Customize a Full Width Template
 
 Lecture 73: Install Contact Form 7 Plugin and Add Your Custom Form
+
+# Section: 16 - Finalize Your WordPress Theme
+
+Lecture 74: Adding & Customizing Your Sidebar Widgets
