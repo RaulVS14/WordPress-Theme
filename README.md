@@ -177,3 +177,7 @@ Lecture 69: Style and Customize the Comments Section
 Lecture 70: Customize the Archive Template
 
 Lecture 71: Customize the Search Results Template
+
+# Section: 15 - Convert Your Static Templates: Contact Page
+
+Lecture 72: Create & Customize a Full Width Template
