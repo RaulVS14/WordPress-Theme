@@ -175,3 +175,5 @@ Lecture 68: Code the Full Blog Post
 Lecture 69: Style and Customize the Comments Section
 
 Lecture 70: Customize the Archive Template
+
+Lecture 71: Customize the Search Results Template

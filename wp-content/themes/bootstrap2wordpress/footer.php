@@ -44,7 +44,7 @@
         <div class="col-sm-3">
 
             <p>
-                <a href="index.html"><img src="<?php bloginfo('stylesheet_directory');?>/assets/img/logo.png" alt="Bootstrap to WordPress"></a>
+                <a href="<?php echo bloginfo('url'); ?>"><img src="<?php bloginfo('stylesheet_directory');?>/assets/img/logo.png" alt="Bootstrap to WordPress"></a>
             </p>
 
         </div><!-- col -->
