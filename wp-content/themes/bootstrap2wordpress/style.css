@@ -147,11 +147,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     z-index: 100000; /* Above WP toolbar. */
 }
 
-/* Do not show the outline on the skip link target. */
-#content[tabindex="-1"]:focus {
-    outline: 0;
-}
-
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
@@ -459,9 +454,6 @@ button, input, .btn, a.btn {
     font-weight: bold;
 }
 
-button.btn:focus {
-    outline: none !important;
-}
 
 .btn-danger {
     background-color: #dd5638;
@@ -1037,7 +1029,6 @@ button[type="submit"] {
 
 input[type="submit"]:hover,
 button[type="submit"]:hover {
-    outline: none;
     border: none;
     background: #aaa;
 }

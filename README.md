@@ -205,3 +205,7 @@ Lecture 79: Install and Configure Your Custom WordPress Theme on a Live Server
 Lecture 80: Track Your Visitors With Google Analytics
 
 Lecture 81: You've Created Your Own Custom WordPress Theme! Now What?
+
+# Section: 19 - Bonus Lectures: Tips & Tricks
+
+Lecture 82: Why You Should NEVER Remove CSS Outlines
